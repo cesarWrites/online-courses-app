@@ -39,5 +39,5 @@ Things you may want to cover:
 # Deployment
 <a href="">Prodevlearning</a>
 # Screenshotts
-<img src="./src/images/Screenshot from 2022-10-10 17-19-00.png">
-<img src="./src/images/Screenshot from 2022-10-10 17-19-04.png">
+<img src="./client/src/images/Screenshot from 2022-10-10 17-19-00.png">
+<img src="./client/src/images/Screenshot from 2022-10-10 17-19-04.png">
