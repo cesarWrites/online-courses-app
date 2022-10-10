@@ -37,4 +37,5 @@ Things you may want to cover:
 # Installation
 # Deployment
 # Screenshotts
-<img src="">
+<img src="/home/sarah/Development/code/phase-4/phase-4-project/learning-app/client/src/images/Screenshot from 2022-10-10 17-19-00.png">
+<img src="/home/sarah/Development/code/phase-4/phase-4-project/learning-app/client/src/images/Screenshot from 2022-10-10 17-19-04.png">
