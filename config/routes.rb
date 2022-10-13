@@ -2,7 +2,11 @@ Rails.application.routes.draw do
 
   resources :lessons, only: [:index]
   resources :courses, only: [:show, :index] do
-    resources :lessons, only: [:show, :index, :create]
+    resources :lessons, only: [:index]
+  end
+
+  resources :instructors, only: [:show] do
+    resources :courses, only: [:index]
   end
   
   post "/signup", to: "users#create"
