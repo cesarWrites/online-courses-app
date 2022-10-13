@@ -8,7 +8,7 @@ gem "rails", "~> 7.0.4"
 
 # Use sqlite3 as the database for Active Record
 #gem "sqlite3", "~> 1.4"
-gem 'pg'
+#gem 'pg'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
@@ -20,7 +20,7 @@ gem 'active_model_serializers'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
-# Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
+ Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem "rack-cors"
 gem "faker", "~> 2.17"
 
@@ -33,5 +33,8 @@ end
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+end
+group :production do
+  gem 'pg', '~> 1.4', '>= 1.4.3'
 end
 
